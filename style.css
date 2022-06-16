@@ -1,0 +1,81 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vw;
+}
+.start-buttons{
+    margin: 1em;
+}
+.function-button{
+    padding: .5em 1em;
+    margin: .2em;
+    background-color: #0fa1db;
+    border: 2px solid #0fa1db;
+    border-radius: 3px;
+    color:#fff;
+}
+.data-box {
+    display: flex;
+    flex-direction: column;
+}
+.data-input {
+    width: 10em;
+}
+.result-box {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin: 1em;
+}
+.action-buttons,
+.action-data{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.action-data{
+    flex-direction: row;
+}
+.action-data-select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: .5em;
+}
+.action-data-select div{
+    color: #89a100;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-right: .4em;
+}
+.select-data{
+    border-radius: 8px;
+}
+.result-value{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+label{
+    color: #89a100;
+}
+input{
+    border-radius: 7px;
+    margin-bottom: .4em;
+    border: 1px solid black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: #e0bf2a;
+}
